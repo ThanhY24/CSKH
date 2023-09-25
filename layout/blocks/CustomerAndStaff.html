@@ -1,0 +1,308 @@
+<div class="header">
+  <div class="row header-top justify-content-between">
+    <div class="col-3 header-logo header-item">
+      <div class="icon-logo"></div>
+    </div>
+    <div class="col-5 header-search header-item">
+      <form
+        action=""
+        class="row w-100 header-search-form justify-content-center"
+      >
+        <input type="text" placeholder="Tìm kiếm liên hệ, hoặc khách hàng" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+    <div class="col-3 header-icon header-item justify-content-end">
+      <p class="header-icon-item">
+        <i class="fa-solid fa-truck-ramp-box"></i>
+      </p>
+      <p class="header-icon-item">
+        <i class="fa-solid fa-bell"></i>
+      </p>
+      <p class="header-icon-item">
+        <i class="fa-solid fa-gear"></i>
+      </p>
+      <p class="header-icon-item">
+        <i class="fa-regular fa-circle-question"></i>
+      </p>
+      <p class="header-icon-item">
+        <img src="./images/avt.png" alt="" />
+      </p>
+    </div>
+  </div>
+  <div class="row header-bottom justify-content-start">
+    <div class="header-bottom-item header-bottom-item_focus">
+      <i class="fa-solid fa-gauge-high"></i>Tổng Quan
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-users"></i>Khách Hàng
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-address-book"></i>Liên Hệ
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-users-line"></i>Nhân Viên
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-box"></i>Sản Phẩm
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-rectangle-list"></i>Dịch Vụ
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-clipboard-check"></i>Đơn Hàng
+    </div>
+
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-clipboard-check"></i>Báo Giá
+    </div>
+    <div class="header-bottom-item">
+      <i class="fa-solid fa-chart-simple"></i>Báo Cáo
+    </div>
+  </div>
+</div>
+<div class="toolbar row justify-content-between">
+  <p class="col-2 p-0 m-0 toolbar-title">Tất cả khách hàng</p>
+  <div class="col-5 p-0 m-0 d-flex justify-content-end">
+    <form class="toolbar-search-form" action="">
+      <input type="text" placeholder="Tìm kiếm liên hệ, hoặc khách hàng" />
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <p class="p_button" id="btn_add_forminsert">
+      <i class="fa-solid fa-plus"></i>Thêm
+    </p>
+    <p class="p_button"><i class="fa-solid fa-file-import"></i>Import</p>
+    <p class="p_button"><i class="fa-solid fa-people-group"></i>Nhóm</p>
+  </div>
+</div>
+<!-- Main -->
+<div class="container-fluid main-content m-0">
+  <div class="row h-100 p-0 m-0">
+    <form class="col-2 main-content-col fillter">
+      <p class="form-title m-0 p-0">
+        LỌC KHÁCH HÀNG THEO <i class="fa-solid fa-magnifying-glass"></i>
+      </p>
+      <div class="fillter-gr">
+        <label for="">Mã khách hàng</label>
+        <input type="text" placeholder="Mã khách hàng" />
+      </div>
+      <div class="fillter-gr">
+        <label for="">Tên khách hàng</label>
+        <input type="text" placeholder="Mã khách hàng" />
+      </div>
+      <div class="fillter-gr">
+        <label for="">Địa chỉ</label>
+        <input type="text" placeholder="Mã khách hàng" />
+      </div>
+      <div class="fillter-gr">
+        <label for="">Giới tính</label>
+        <select name="" id="">
+          <option value="nam">Nam</option>
+          <option value="nu">Nữ</option>
+        </select>
+      </div>
+      <div class="fillter-gr">
+        <label for="">Nhóm</label>
+        <select name="" id="">
+          <option value="nam">Nhóm 1</option>
+          <option value="nu">Nhóm 2</option>
+        </select>
+      </div>
+      <p class="p_button p-0 m-0 mt-3 fillter-button">Áp Dụng</p>
+      <p class="p_button p-0 m-0 mt-3 fillter-button bg-danger">Xóa Dữ Liệu</p>
+    </form>
+    <div class="col-10 main-content-col datatable">
+      <div class="row p-0 m-0 datatable-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Họ và Tên</th>
+              <th scope="col">Giới tính</th>
+              <th scope="col">Số điện thoại</th>
+              <th scope="col">Địa chỉ mail</th>
+              <th scope="col">Tổng tiền mua hàng</th>
+              <th scope="col">Địa chỉ</th>
+              <th scope="col">Hạn mức</th>
+              <th scope="col">Ngày tham gia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Lê Thành Ý</td>
+              <td>Nam</td>
+              <td>0866747580</td>
+              <td>lethanhy9999@gmail.com</td>
+              <td>10.000.000đ</td>
+              <td>Anh Khánh, Ninh Kiều, Cần Thơ</td>
+              <td>20.000.000đ</td>
+              <td>08/08/2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row p-0 m-0 datatable-footer justify-content-end">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">4</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#">5</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="container-fluid p-0 m-0 w-100 h-100 insert-form-container"
+  id="insert-form-container"
+>
+  <form action="" class="insert-form">
+    <p class="row m-0 p-o w-100 insert-form-title">Thêm khách hàng</p>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Mã khách hàng</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input
+              type="text"
+              class="insert-form-input"
+              placeholder="Mã tự sinh"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Tên khách hàng</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Ngày sinh</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="date" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Địa chỉ mail</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Số điện thoại</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Mã số thuế</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Địa chỉ nơi ở</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Địa chỉ giao hàng</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Hạn mức tín dụng</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Số ngày hạn mức</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <input type="text" class="insert-form-input" placeholder="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-between insert-form-gr">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <div class="row m-0 p-0 h-100 w-100 align-items-center">
+          <div class="col-2 p-0 m-0">
+            <label for="" class="insert-form-label">Giới tính</label>
+          </div>
+          <div class="col-10 p-0 m-0">
+            <select name="" id="" class="insert-form-select">
+              <option value="nam">Name</option>
+              <option value="nu">Nữ</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-0 w-100 justify-content-end insert-form-gr">
+      <p class="col-auto p_button bg-danger">Xóa dữ liệu</p>
+      <p class="col-auto p_button bg-danger" id="btn_close_forminsert">Đóng</p>
+      <p class="col-auto p_button">Xác nhận</p>
+    </div>
+  </form>
+</div>

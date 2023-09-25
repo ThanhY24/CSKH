@@ -1,0 +1,120 @@
+.call-model {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.21);
+  padding-top: 100px;
+}
+.call-container {
+  margin: 0 auto;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgb(0, 106, 253);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 106, 253, 1) 0%,
+    rgba(0, 170, 242, 1) 100%
+  );
+}
+.call-item-container {
+  width: 100%;
+}
+.call-avatar {
+  margin-top: 10px;
+}
+
+.call-avatar > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.call-number {
+  margin-top: 20px;
+}
+.call-number-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.call-number-item-status {
+  width: 100%;
+}
+.call-status {
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.call-number-item > label {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  width: 20%;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.call-number-item > input {
+  width: 75%;
+  height: 35px;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  padding-left: 5px;
+  box-sizing: border-box;
+  color: black;
+
+  outline: none;
+  font-size: 13px;
+  background-color: white;
+}
+.call-numer-button-container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.call-enable {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0;
+  margin: 0 10;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.call-enable > i {
+  font-size: 15px;
+  font-weight: 600;
+}
+.call-disable {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0;
+  margin: 0 10;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.call-disable > i {
+  font-size: 15px;
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ImportAndPublishInv xmlns="http://tempuri.org/">
+            <Account>testphunongadmin</Account>
+            <ACpass>Einv@oi@vn#pt20</ACpass>
+            <xmlInvData><?xml version="1.0"?>
+<Invoices><Inv><key>04142015092023</key><Invoice><CusCode>6</CusCode><CusName>Th&#xE0;nh &#xDD; 69</CusName><CusAddress/><CusPhone>0988767555</CusPhone><CusTaxCode>0</CusTaxCode><Products><Product><ProdName>VD100F</ProdName><ProdQuantity>1</ProdQuantity><ProdPrice>101000</ProdPrice><Amount>106050</Amount><Total>101000</Total><VATRate>5</VATRate><VATAmount>5050</VATAmount><IsSum>0</IsSum></Product><Product><ProdName>VD90</ProdName><ProdQuantity>1</ProdQuantity><ProdPrice>90000</ProdPrice><Amount>94500</Amount><Total>90000</Total><VATRate>5</VATRate><VATAmount>4500</VATAmount><IsSum>0</IsSum></Product></Products><Total>191000</Total><VATRate>5</VATRate><VATAmount>9550</VATAmount><Amount>200550</Amount><AmountInWords>Tram Nghin Dong</AmountInWords><PaymentStatus>Chua Thanh Toan</PaymentStatus></Invoice></Inv></Invoices>
+</xmlInvData>
+            <username>testphunongservice</username>
+            <password>123456aA@</password>
+            <pattern>1/001</pattern>
+            <serial>04S14H20MI15D09M2023Y</serial>
+            <convert>0</convert>
+        </ImportAndPublishInv>
+    </soap:Body>
+</soap:Envelope>
